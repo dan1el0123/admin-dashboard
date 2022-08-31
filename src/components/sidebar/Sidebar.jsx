@@ -25,25 +25,25 @@ const Sidebar = () => {
             <div className="center">
                 <ul>
                     <p className="title">MAIN</p>
-                    <li>
-                        <Link to="/" style={{ textDecoration: "none" }}>
+                    <Link to="/" style={{ textDecoration: "none" }}>
+                        <li>
                             <DashboardIcon className="icon" />
                             <span>Dashboard</span>
-                        </Link>
-                    </li>
+                        </li>
+                    </Link>
                     <p className="title">LISTS</p>
-                    <li>
-                        <Link to="/users" style={{ textDecoration: "none" }}>
+                    <Link to="/users" style={{ textDecoration: "none" }}>
+                        <li>
                             <PersonOutlineIcon className="icon" />
                             <span>Users</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/products" style={{ textDecoration: "none" }}>
+                        </li>
+                    </Link>
+                    <Link to="/products" style={{ textDecoration: "none" }}>
+                        <li>
                             <StoreIcon className="icon" />
                             <span>Products</span>
-                        </Link>
-                    </li>
+                        </li>
+                    </Link>
                     <li>
                         <CreditCardIcon className="icon" />
                         <span>Orders</span>
