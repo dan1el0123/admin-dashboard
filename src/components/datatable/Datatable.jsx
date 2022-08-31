@@ -27,6 +27,16 @@ const Datatable = () => {
 
     return (
         <div className="datatable">
+            <div className="datatableTitle">
+                All Users
+                <Link
+                    to="/users/new"
+                    style={{ textDecoration: "none" }}
+                    className="link"
+                >
+                    Add New
+                </Link>
+            </div>
             <DataGrid
                 rows={userRows}
                 columns={userColumns.concat(actionColumn)}
