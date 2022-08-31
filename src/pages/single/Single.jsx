@@ -17,7 +17,7 @@ const Single = () => {
                         <div className="item">
                             <img
                                 src="https://thumbs.dreamstime.com/b/male-avatar-icon-flat-style-male-user-icon-cartoon-man-avatar-hipster-vector-stock-91462914.jpg"
-                                alt="Item Image"
+                                alt="Avatar"
                                 className="itemImg"
                             />
                             <div className="details">
