@@ -1,6 +1,7 @@
 import Chart from "../../components/chart/Chart";
 import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";
+import List from "../../components/table/Table";
 import "./single.scss";
 
 const Single = () => {
@@ -53,7 +54,10 @@ const Single = () => {
                         />
                     </div>
                 </div>
-                <div className="bottom"></div>
+                <div className="bottom">
+                    <h1 className="title">Latest Transactions</h1>
+                    <List />
+                </div>
             </div>
         </div>
     );
